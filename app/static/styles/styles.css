@@ -1,0 +1,13 @@
+.login{
+  display: inline-grid;
+  /* justify-content: ; */
+}
+.center {
+  margin: auto;
+  width: 100%;
+  border: 3px solid green;
+  padding: 10px;
+}
+html{
+  font-size: 2rem;
+}

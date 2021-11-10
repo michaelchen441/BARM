@@ -1,0 +1,15 @@
+runtime: python38 # or another supported version
+instance_class: F1 # this is the cheapest option
+
+env_variables:
+  MYSQL_USER: "root"
+  MYSQL_PASSWORD: "rushal"
+  MYSQL_DB: 'BARM'
+  MYSQL_HOST: "34.133.243.241"
+handlers:
+
+  url: /script
+  static_dir: static/script
+
+  url: /styles
+  static_dir: static/styles
